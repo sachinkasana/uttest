@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  number:number;
+  constructor(){
+    this.number=1;
+  }
+  increment(){
+    this.number++;
+  }
+  decrement(){
+    this.number--;
+  }
 }
